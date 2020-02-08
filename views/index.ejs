@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- My own stylesheet. Must always be placed before Bootstrap so it overrides the original styles!  -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- GoogleFonts -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6">
+        <div class="logo">
+            <img class="logo" src="images/logo.svg" alt="">
+        </div>
+
+        <div class="text-container">
+
+          <h1 id="we-are-text">WE'RE</h1>
+          <h1 class="coming-text">COMING</h1>
+          <h1 class="soon-text">SOON</h1>
+          <p class="paragraph">Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+          <form action="/" method="post" class="form">
+            <div class="input-group mb-3">
+
+              <input type="text" name="input" class="form-control text" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2" id="input-text">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-outline-secondary" id="button-addon2"><img class="svg" src="images/icon-arrow.svg"></img></button>
+              </div>
+
+            </div>
+            <p class="info-text"><%= info %></p>
+
+          </form>
+
+        </div>
+      </div>
+
+      <div class="col-lg-6 image">
+        <img class="picture" src="images/hero-desktop.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Beatriz Almeida Pires</a>.
+    </p>
+  </footer>
+</body>
+
+</html>

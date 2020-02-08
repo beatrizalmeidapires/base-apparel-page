@@ -1,0 +1,173 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-right: 0;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(246, 226, 226, 0.16);
+}
+
+input {
+  padding: 5px;
+}
+
+.text:focus {
+  border: 1px solid salmon;
+}
+
+.input-group {
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 50px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: darkgrey;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.text-container {
+  margin-top: 12%;
+  width: 65%;
+  margin-left: 60px;
+}
+
+.paragraph {
+  font-size: 13px;
+  line-height: 1.8;
+  color: hsl(0, 36%, 70%);
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.picture {
+  width: 85%;
+}
+
+div.image {
+  text-align: right;
+  padding-right: 0px;
+}
+
+#we-are-text {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+  letter-spacing: 10px;
+  font-size: 55px;
+  margin-bottom: 0;
+}
+
+.coming-text, .soon-text {
+  font-weight: 600;
+  letter-spacing: 10px;
+  font-size: 55px;
+  color: hsl(0, 6%, 24%);
+  margin-bottom: 0;
+  line-height: 65px;
+}
+
+#input-text {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 12px;
+  border: none;
+}
+
+div.container {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+div.col-lg-6.image {
+  padding-right: 0px;
+}
+
+img.logo {
+  width: 25%;
+  margin: 50px 0 0 60px;
+}
+
+.info-text {
+  color: hsl(0, 93%, 68%)
+}
+
+#button-addon2{
+  border-radius: 50px;
+  border: none;
+  width: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 85px;
+  background: linear-gradient(to left, hsl(0, 71%, 76%) 0%, #f6c2c2 100%);
+  box-shadow: -2px 4px 15px 8px hsl(0, 67%, 72%, 0.2), 0 6px 20px 0 hsl(0, 67%, 72%, 0.19);
+}
+
+input::placeholder {
+  font-size: 0.8em;
+  padding-left: 15px;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+    background-color: hsl(0, 100%, 98%);
+    background-blend-mode: lighten;
+  }
+
+  div.image {
+    text-align: center;
+  }
+
+  .text-container {
+    width: 80%;
+    text-align: center;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .attribution a {
+    text-decoration: none;
+    color: darkgrey;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: darkgrey;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+
+  div.container {
+    text-align: center;
+  }
+
+  div.col-lg-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .form {
+    margin: 50px 0;
+  }
+}
